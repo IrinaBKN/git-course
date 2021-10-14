@@ -4,7 +4,7 @@ function checkTemp(x){
 			if (x>=0 && x<=20){
 				console.log("On liiga külm")
 			}
-			if (x>=21 && x<=41)
+			if (x>=21 && x<=40)
 			{
 				console.log("on paras temperatuur")
 			} 
@@ -20,7 +20,7 @@ function checkTemp(x){
 				console.log("On liiga külm")
 				return (-1)
 			}
-			if (x>=21 && x<=41)
+			if (x>=21 && x<=40)
 			{
 				console.log("on paras temperatuur")
 				return (0)

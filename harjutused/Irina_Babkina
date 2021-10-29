@@ -1,0 +1,43 @@
+Esimine ülesanne
+// Võta array [2,7,6,12,44,32,4,8,12,17] ja leidke seal olevate arvude kogusumma
+let sumValues = [2, 7, 6, 12, 44, 32, 4, 8, 12, 17];
+let sum = 0;
+let i = 0;
+while(i < sumValues.length){
+	sum +=sumValues[i];
+	i++;
+}
+console.log(sum);
+
+
+/// teine variant
+let sumValues = [2, 7, 6, 12, 44, 32, 4, 8, 12, 17];
+let sum = 0;
+for (i=0; i < sumValues.length; i++){
+	sum +=sumValues[i];
+}
+console.log(sum);
+
+Teine ülesanne
+
+// Võta string "2 7 6 12 44 32 4 8 12 17" 
+// ja leidke seal olevate arvude kogusumma, iga arv on eraldatud tühikuga
+
+let str = "2 7 6 12 44 32 4 8 12 17";
+let res = str.split(" ");
+res = res.map(Number);
+console.log(res);
+console.log(typeof res)
+sum = 0
+for (i=0; i < res.length; i++){
+	sum +=res[i];
+}
+console.log(sum);
+
+
+Kolmas ülesanne 
+// Kirjuta funktsioon mis teisendab sekundid tundideks näiteks 7582 on 2 tundi.
+let time = function(a){
+	let res = a/3600;
+	return res;
+}

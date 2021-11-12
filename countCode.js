@@ -17,4 +17,5 @@ const data = ["FWmcfgAWxe", "KnFJXGcACq", "cCYApSPiX0", "iHwbq2giBx", "X5Ebl6sjL
 						counter++;
 					}
 				} console.log("Your letter - " + result + " repeat = " + counter);
+				return counter;
 			}
